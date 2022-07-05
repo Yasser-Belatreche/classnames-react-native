@@ -1,0 +1,36 @@
+{
+  "name": "classnames-react-native",
+  "version": "0.0.0",
+  "description": "a react native version of the famous classnames web package",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "mocha './tests/**/*.test.ts' -r ts-node/register",
+    "lint": "eslint --ext .ts ."
+  },
+  "keywords": [
+    "react-native",
+    "classnames",
+    "styles"
+  ],
+  "author": "Yasser Belatreche",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "chai": "^4.3.6",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-mocha": "^10.0.5",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-security": "^1.5.0",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
