@@ -7,7 +7,7 @@ It's a javascript utility for conditionally joining styles together.
 install via [npm](https://www.npmjs.com/)
 
 ```bash
-npm install classnames-react-native
+npm install classnames-rn
 ```
 
 ## Usage
