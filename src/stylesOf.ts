@@ -3,7 +3,6 @@ import {
   TextStyle,
   ViewStyle,
   ImageStyle,
-  StatusBarStyle,
   TransformsStyle,
   TextStyleAndroid,
   TextStyleIOS,
@@ -14,7 +13,6 @@ type RNStyles =
   | TextStyle
   | ViewStyle
   | ImageStyle
-  | StatusBarStyle
   | TransformsStyle
   | TextStyleAndroid
   | TextStyleIOS;
@@ -22,7 +20,7 @@ type RNStyles =
 type Arguments<T extends string> = Array<T | Partial<Record<T, any>>>;
 
 function stylesOf<T extends string>(baseStylesObject: Record<T, RNStyles>) {
-  return (...args: Arguments<T>): RNStyles | Array<RNStyles> => {
+  return (...args: Arguments<T>): RNStyles | RNStyles[] => {
     if (thereIsJustOneStringIn(args)) return baseStylesObject[args[0]];
 
     const styles: RNStyles[] = [];
