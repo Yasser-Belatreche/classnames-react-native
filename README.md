@@ -17,7 +17,7 @@ The `stylesOf` function takes the styles object returned from `StyleSheet.create
 ## Examples
 
 ```tsx
-import { stylesOf } from 'classnames-react-native';
+import { stylesOf } from 'classnames-rn';
 
 const styles = StyleSheet.create({
   ...
@@ -78,7 +78,7 @@ const Component = () => {
 ### After
 
 ```tsx
-import { stylesOf } from 'classnames-react-native';
+import { stylesOf } from 'classnames-rn';
 
 const styles = StyleSheet.create({
   ...
