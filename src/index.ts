@@ -1,0 +1,1 @@
+export { stylesOf } from './stylesOf';
