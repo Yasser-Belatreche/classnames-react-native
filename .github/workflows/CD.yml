@@ -31,7 +31,7 @@ jobs:
 
   publish: 
     name: Publish The Package
-    needs: tests
+    needs: test
     runs-on: ubuntu-latest
     steps:
       -
