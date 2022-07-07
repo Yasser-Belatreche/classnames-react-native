@@ -27,9 +27,7 @@
         "mocha/no-setup-in-describe": "off",
         "node/no-unsupported-features/es-syntax": "off",
         "security/detect-object-injection": "off",
-        "node/no-unpublished-import": ["error", {
-            "allowModules": ["chai"] 
-        }],
+        "node/no-unpublished-import": "off",
         "node/no-missing-import": ["error", { 
             "tryExtensions": [".ts"],
             "allowModules": ["react-native", "chai"]
