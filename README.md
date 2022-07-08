@@ -67,7 +67,7 @@ const Component = () => {
   const [disabled, setDisabled] = useState(false);
 
   return (
-    // this will return [styles.button] if the disable if false, and [styles.button, styles.disable] if the disabled is true
+    // this will return [styles.button] if the disable if false, and [styles.button, styles.disable] if the disabled, and active are true
     <Button style={[styles.button, disabled && styles.disabled, active && styles.active]}> 
       ...
     </Button>
