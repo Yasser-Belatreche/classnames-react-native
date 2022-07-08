@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     // some styles
   },
 
-  disable: {
+  disabled: {
     opacity: 0.3
   },
 
@@ -68,7 +68,7 @@ const Component = () => {
 
   return (
     // this will return [styles.button] if the disable if false, and [styles.button, styles.disable] if the disabled is true
-    <Button style={[styles.button, disabled && styles.disable, active && styles.active]}> 
+    <Button style={[styles.button, disabled && styles.disabled, active && styles.active]}> 
       ...
     </Button>
   )
