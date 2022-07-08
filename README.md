@@ -68,7 +68,7 @@ const Component = () => {
 
   return (
     // this will return [styles.button] if the disable if false, and [styles.button, styles.disable] if the disabled is true
-    <Button style={[styles.button, disable && styles.disable, active && styles.active]}> 
+    <Button style={[styles.button, disabled && styles.disable, active && styles.active]}> 
       ...
     </Button>
   )
