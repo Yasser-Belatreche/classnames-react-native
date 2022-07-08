@@ -1,6 +1,6 @@
 {
   "name": "classnames-rn",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "It's a javascript utility for conditionally joining react native styles together.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
